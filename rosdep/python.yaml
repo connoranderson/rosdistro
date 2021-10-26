@@ -6546,6 +6546,17 @@ python3-gnupg:
   openembedded: [python3-gnupg@meta-python]
   opensuse: [python3-python-gnupg]
   ubuntu: [python3-gnupg]
+python3-googleapi:
+  debian: [python3-googleapi]
+  fedora: [python3-google-api-client]
+  ubuntu:
+    trusty: [python3-googleapi]
+    utopic: [python3-googleapi]
+    vivid: [python3-googleapi]
+    wily: [python3-googleapi]
+    wily_python3: [python3-googleapi]
+    xenial: [python3-googleapi]
+    xenial_python3: [python3-googleapi]
 python3-google-cloud-storage-pip: *migrate_eol_2025_04_30_python3_google_cloud_storage_pip
 python3-google-cloud-texttospeech-pip: *migrate_eol_2025_04_30_python3_google_cloud_texttospeech_pip
 python3-gpiozero:
